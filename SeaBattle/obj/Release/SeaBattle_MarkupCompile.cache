@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\Admin\source\repos\SeaBattle\SeaBattle\obj\Debug\
+C:\Users\Admin\source\repos\SeaBattle\SeaBattle\obj\Release\
 SeaBattle
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\Admin\source\repos\SeaBattle\SeaBattle\App.xaml
 6-205254758
 21750853300

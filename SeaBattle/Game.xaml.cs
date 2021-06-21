@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using System.Diagnostics;
 
 namespace SeaBattle
 {
@@ -25,6 +26,34 @@ namespace SeaBattle
         {
             InitializeComponent();
             username_label.Content = user;
+            addEventClicCell(playerShips);
+        }
+
+
+        private void addEventClicCell(Grid grid)
+        {
+            int i = 0;
+            int j = 0;
+            foreach (Grid grid_item in grid.Children)
+            {
+                if( j>= 10)
+                {
+                    i++;
+                    j = 0;
+                }
+                Button b = new Button();
+                b.Click += B_Click;
+                b.Tag = new Point(i, j);
+                grid_item.Children.Add(b);
+                j++;
+            }
+        }
+
+        private void B_Click(object sender, RoutedEventArgs e)
+        {
+            Button button = sender as Button;
+            Point point = (Point)button.Tag;
+            Debug.WriteLine(point);
         }
 
         private void To_main_btn_Click(object sender, RoutedEventArgs e)
