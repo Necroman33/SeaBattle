@@ -5,15 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SeaBattle"
         mc:Ignorable="d"
-        Title="Морской бой" Height="590.284" Width="940.284">
-    <Grid Margin="0,0,60,72">
+        Title="Морской бой" Height="692.425" Width="1093.497">
+    <Grid Margin="0,0,2,-4">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="7*"/>
             <ColumnDefinition/>
         </Grid.ColumnDefinitions>
-        <Label x:Name="username_label" Content="" HorizontalAlignment="Left" Height="34" Margin="658,8,0,0" VerticalAlignment="Top" Width="119" Grid.ColumnSpan="2"/>
-        <Button x:Name="to_main_btn" Content="На главную" HorizontalAlignment="Left" Height="54" Margin="581,292,0,0" VerticalAlignment="Top" Width="114" Click="To_main_btn_Click"/>
-        <Grid x:Name="playerShips" Margin="31,21,319.25,65">
+        <Label x:Name="username_label" Content="" HorizontalAlignment="Left" Height="34" Margin="540,18,0,0" VerticalAlignment="Top" Width="143"/>
+        <Button x:Name="to_main_btn" Content="На главную" HorizontalAlignment="Left" Height="54" Margin="600,577,0,0" VerticalAlignment="Top" Width="114" Click="To_main_btn_Click"/>
+        <Grid x:Name="playerShips" Margin="23,50,576,127">
             <Grid.RowDefinitions>
 
                 <RowDefinition Height="1*"/>
@@ -44,72 +43,7 @@
                 <ColumnDefinition Width="1*"/>
                 <ColumnDefinition Width="1*"/>
             </Grid.ColumnDefinitions>
-            <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="12" HorizontalAlignment="Center">
-                <TextBlock Text="Корабли игрока" Margin="2"/>
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="0">
-                <Label Content="" />
-            </Grid>
-            <Grid Grid.Row="2" Grid.Column="0">
-                <Label Content="1" />
-            </Grid>
-            <Grid Grid.Row="3" Grid.Column="0">
-                <Label Content="2" />
-            </Grid>
-            <Grid Grid.Row="4" Grid.Column="0">
-                <Label Content="3"  />
-            </Grid>
-            <Grid Grid.Row="5" Grid.Column="0">
-                <Label Content="4"  />
-            </Grid>
-            <Grid Grid.Row="6" Grid.Column="0">
-                <Label Content="5"  />
-            </Grid>
-            <Grid Grid.Row="7" Grid.Column="0">
-                <Label Content="6" />
-            </Grid>
-            <Grid Grid.Row="8" Grid.Column="0">
-                <Label Content="7"  />
-            </Grid>
-            <Grid Grid.Row="9" Grid.Column="0">
-                <Label Content="8"  />
-            </Grid>
-            <Grid Grid.Row="10" Grid.Column="0">
-                <Label Content="9" />
-            </Grid>
-            <Grid Grid.Row="11" Grid.Column="0">
-                <Label Content="10"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="1">
-                <Label Content="А"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="2" >
-                <Label Content="Б"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="3" >
-                <Label Content="В"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="4" >
-                <Label Content="Г"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="5" >
-                <Label Content="Д"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="6" >
-                <Label Content="Е"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="7" >
-                <Label Content="Ж"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="8" >
-                <Label Content="З"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="9" >
-                <Label Content="И"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="10" >
-                <Label Content="К"  />
-            </Grid>
+
 
             <Grid  Grid.Row="2" Grid.Column="1">
                 <Button />
@@ -144,6 +78,344 @@
 
             <Grid Grid.Row="3" Grid.Column="1">
                 <Button />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="2">
+
+                <Button  Grid.ColumnSpan="2"/>
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="3">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="4">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="5">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="6">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="7">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="8">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="9">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="3" Grid.Column="10">
+                <Button />
+            </Grid>
+
+            <Grid Grid.Row="4" Grid.Column="1">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="2">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="3">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="4">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="5">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="6">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="7">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="8">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="9">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="4" Grid.Column="10">
+                <Button />
+            </Grid>
+
+            <Grid Grid.Row="5" Grid.Column="1">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="2">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="3">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="4">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="5">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="6">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="7">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="8">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="9">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="5" Grid.Column="10">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="1">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="2">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="3">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="4">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="5">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="6">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="7">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="8">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="9">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="6" Grid.Column="10">
+                <Button />
+            </Grid>
+
+            <Grid Grid.Row="7" Grid.Column="1">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="2">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="3">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="4">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="5">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="6">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="7">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="8">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="9">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="7" Grid.Column="10">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="1">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="2">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="3">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="4">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="5">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="6">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="7">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="8">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="9">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="8" Grid.Column="10">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="1">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="2">
+                <Button/>
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="3">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="4">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="5">
+                <Button Grid.RowSpan="2" />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="6">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="7">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="8">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="9">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="9" Grid.Column="10">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="1">
+                <Button Grid.ColumnSpan="2" Width="41" />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="2">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="3">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="4">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="5">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="6">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="7">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="8">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="9">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="10" Grid.Column="10">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="11" Grid.Column="1">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="11" Grid.Column="2">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="11" Grid.Column="3">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="11" Grid.Column="4">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="11" Grid.Column="5">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="11" Grid.Column="6">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="11" Grid.Column="7">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="11" Grid.Column="8">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="11" Grid.Column="9">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="11" Grid.Column="10">
+                <Button />
+            </Grid>
+        </Grid>
+        <Grid x:Name="enemyShips" Margin="578,50,21,127">
+            <Grid.RowDefinitions>
+
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+                <RowDefinition Height="1*"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+                <ColumnDefinition Width="1*"/>
+            </Grid.ColumnDefinitions>
+
+            <Grid  Grid.Row="2" Grid.Column="1">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="2">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="3">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="4">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="5">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="6">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="7">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="8">
+                <Button />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="9">
+                <Button HorizontalAlignment="Right" Width="40" />
+            </Grid>
+            <Grid Grid.Row="2" Grid.Column="10">
+                <Button />
+            </Grid>
+
+            <Grid Grid.Row="3" Grid.Column="1">
+                <Button Grid.ColumnSpan="2" />
             </Grid>
             <Grid Grid.Row="3" Grid.Column="2">
 
@@ -417,410 +689,51 @@
                 <Button />
             </Grid>
         </Grid>
-        <Grid x:Name="playerShips1" Margin="450,21,42,65" Grid.ColumnSpan="2">
-            <Grid.RowDefinitions>
-
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-                <RowDefinition Height="1*"/>
-
-            </Grid.RowDefinitions>
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
-                <ColumnDefinition Width="1*"/>
-            </Grid.ColumnDefinitions>
-            <Grid Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="12" HorizontalAlignment="Center">
-                <TextBlock Text="Корабли игрока" Margin="2"/>
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="0">
-                <Label Content="" />
-            </Grid>
-            <Grid Grid.Row="2" Grid.Column="0">
-                <Label Content="1" />
-            </Grid>
-            <Grid Grid.Row="3" Grid.Column="0">
-                <Label Content="2" />
-            </Grid>
-            <Grid Grid.Row="4" Grid.Column="0">
-                <Label Content="3"  />
-            </Grid>
-            <Grid Grid.Row="5" Grid.Column="0">
-                <Label Content="4"  />
-            </Grid>
-            <Grid Grid.Row="6" Grid.Column="0">
-                <Label Content="5"  />
-            </Grid>
-            <Grid Grid.Row="7" Grid.Column="0">
-                <Label Content="6" />
-            </Grid>
-            <Grid Grid.Row="8" Grid.Column="0">
-                <Label Content="7"  />
-            </Grid>
-            <Grid Grid.Row="9" Grid.Column="0">
-                <Label Content="8"  />
-            </Grid>
-            <Grid Grid.Row="10" Grid.Column="0">
-                <Label Content="9" />
-            </Grid>
-            <Grid Grid.Row="11" Grid.Column="0">
-                <Label Content="10"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="1">
-                <Label Content="А"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="2" >
-                <Label Content="Б"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="3" >
-                <Label Content="В"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="4" >
-                <Label Content="Г"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="5" >
-                <Label Content="Д"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="6" >
-                <Label Content="Е"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="7" >
-                <Label Content="Ж"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="8" >
-                <Label Content="З"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="9" >
-                <Label Content="И"  />
-            </Grid>
-            <Grid Grid.Row="1" Grid.Column="10" >
-                <Label Content="К"  />
-            </Grid>
-
-            <Grid  Grid.Row="2" Grid.Column="1">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="2" Grid.Column="2">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="2" Grid.Column="3">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="2" Grid.Column="4">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="2" Grid.Column="5">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="2" Grid.Column="6">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="2" Grid.Column="7">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="2" Grid.Column="8">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="2" Grid.Column="9">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="2" Grid.Column="10">
-                <Button />
-            </Grid>
-
-            <Grid Grid.Row="3" Grid.Column="1">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="3" Grid.Column="2">
-
-                <Button  Grid.ColumnSpan="2"/>
-            </Grid>
-            <Grid Grid.Row="3" Grid.Column="3">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="3" Grid.Column="4">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="3" Grid.Column="5">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="3" Grid.Column="6">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="3" Grid.Column="7">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="3" Grid.Column="8">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="3" Grid.Column="9">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="3" Grid.Column="10">
-                <Button />
-            </Grid>
-
-            <Grid Grid.Row="4" Grid.Column="1">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="4" Grid.Column="2">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="4" Grid.Column="3">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="4" Grid.Column="4">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="4" Grid.Column="5">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="4" Grid.Column="6">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="4" Grid.Column="7">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="4" Grid.Column="8">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="4" Grid.Column="9">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="4" Grid.Column="10">
-                <Button />
-            </Grid>
-
-            <Grid Grid.Row="5" Grid.Column="1">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="5" Grid.Column="2">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="5" Grid.Column="3">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="5" Grid.Column="4">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="5" Grid.Column="5">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="5" Grid.Column="6">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="5" Grid.Column="7">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="5" Grid.Column="8">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="5" Grid.Column="9">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="5" Grid.Column="10">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="6" Grid.Column="1">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="6" Grid.Column="2">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="6" Grid.Column="3">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="6" Grid.Column="4">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="6" Grid.Column="5">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="6" Grid.Column="6">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="6" Grid.Column="7">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="6" Grid.Column="8">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="6" Grid.Column="9">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="6" Grid.Column="10">
-                <Button />
-            </Grid>
-
-            <Grid Grid.Row="7" Grid.Column="1">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="7" Grid.Column="2">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="7" Grid.Column="3">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="7" Grid.Column="4">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="7" Grid.Column="5">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="7" Grid.Column="6">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="7" Grid.Column="7">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="7" Grid.Column="8">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="7" Grid.Column="9">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="7" Grid.Column="10">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="8" Grid.Column="1">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="8" Grid.Column="2">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="8" Grid.Column="3">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="8" Grid.Column="4">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="8" Grid.Column="5">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="8" Grid.Column="6">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="8" Grid.Column="7">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="8" Grid.Column="8">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="8" Grid.Column="9">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="8" Grid.Column="10">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="9" Grid.Column="1">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="9" Grid.Column="2">
-                <Button/>
-            </Grid>
-            <Grid Grid.Row="9" Grid.Column="3">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="9" Grid.Column="4">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="9" Grid.Column="5">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="9" Grid.Column="6">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="9" Grid.Column="7">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="9" Grid.Column="8">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="9" Grid.Column="9">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="9" Grid.Column="10">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="10" Grid.Column="1">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="10" Grid.Column="2">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="10" Grid.Column="3">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="10" Grid.Column="4">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="10" Grid.Column="5">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="10" Grid.Column="6">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="10" Grid.Column="7">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="10" Grid.Column="8">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="10" Grid.Column="9">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="10" Grid.Column="10">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="11" Grid.Column="1">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="11" Grid.Column="2">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="11" Grid.Column="3">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="11" Grid.Column="4">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="11" Grid.Column="5">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="11" Grid.Column="6">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="11" Grid.Column="7">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="11" Grid.Column="8">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="11" Grid.Column="9">
-                <Button />
-            </Grid>
-            <Grid Grid.Row="11" Grid.Column="10">
-                <Button />
-            </Grid>
-        </Grid>
+        <Label x:Name="label" Content="Ваши корабли" HorizontalAlignment="Left" Height="33" Margin="215,59,0,0" VerticalAlignment="Top" Width="154"/>
+        <Label x:Name="label_Copy" Content="Корабли противника" HorizontalAlignment="Left" Height="33" Margin="753,59,0,0" VerticalAlignment="Top" Width="154"/>
+        <Label x:Name="label1" Content="А" HorizontalAlignment="Left" Margin="65,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy" Content="Б" HorizontalAlignment="Left" Margin="105,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy1" Content="В" HorizontalAlignment="Left" Margin="145,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy2" Content="Г" HorizontalAlignment="Left" Margin="185,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy3" Content="Д" HorizontalAlignment="Left" Margin="225,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy4" Content="Е" HorizontalAlignment="Left" Margin="265,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy5" Content="Ж" HorizontalAlignment="Left" Margin="305,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy6" Content="З" HorizontalAlignment="Left" Margin="345,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy7" Content="И" HorizontalAlignment="Left" Margin="385,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy8" Content="К" HorizontalAlignment="Left" Margin="425,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy9" Content="А" HorizontalAlignment="Left" Margin="621,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy10" Content="Б" HorizontalAlignment="Left" Margin="661,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy11" Content="В" HorizontalAlignment="Left" Margin="701,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy12" Content="Г" HorizontalAlignment="Left" Margin="741,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy13" Content="Д" HorizontalAlignment="Left" Margin="781,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy14" Content="Е" HorizontalAlignment="Left" Margin="821,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy15" Content="Ж" HorizontalAlignment="Left" Margin="861,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy16" Content="З" HorizontalAlignment="Left" Margin="901,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy17" Content="И" HorizontalAlignment="Left" Margin="941,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy18" Content="К" HorizontalAlignment="Left" Margin="981,89,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy19" Content="1" HorizontalAlignment="Left" Margin="23,131,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy20" Content="2" HorizontalAlignment="Left" Margin="23,173,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy21" Content="3" HorizontalAlignment="Left" Margin="23,215,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy22" Content="4" HorizontalAlignment="Left" Margin="23,255,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy23" Content="5" HorizontalAlignment="Left" Margin="23,295,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy24" Content="6" HorizontalAlignment="Left" Margin="23,337,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy25" Content="7" HorizontalAlignment="Left" Margin="23,379,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy26" Content="8" HorizontalAlignment="Left" Margin="23,419,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy27" Content="9" HorizontalAlignment="Left" Margin="23,457,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy28" Content="10" HorizontalAlignment="Left" Margin="23,499,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy29" Content="1" HorizontalAlignment="Left" Margin="578,130,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy30" Content="2" HorizontalAlignment="Left" Margin="578,172,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy31" Content="3" HorizontalAlignment="Left" Margin="578,214,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy32" Content="4" HorizontalAlignment="Left" Margin="578,254,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy33" Content="5" HorizontalAlignment="Left" Margin="578,294,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy34" Content="6" HorizontalAlignment="Left" Margin="578,336,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy35" Content="7" HorizontalAlignment="Left" Margin="578,378,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy36" Content="8" HorizontalAlignment="Left" Margin="578,418,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy37" Content="9" HorizontalAlignment="Left" Margin="578,456,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label1_Copy38" Content="10" HorizontalAlignment="Left" Margin="578,498,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
+        <Label x:Name="label2" Content="Текущий пользователь:" HorizontalAlignment="Left" Height="33" Margin="386,19,0,0" VerticalAlignment="Top" Width="143"/>
+        <Button x:Name="button" Content="Начать игру" HorizontalAlignment="Left" Height="54" Margin="287,577,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="button_Copy" Content="Сдаться" HorizontalAlignment="Left" Height="54" Margin="442,577,0,0" VerticalAlignment="Top" Width="120"/>
     </Grid>
 
 </Window>

@@ -25,8 +25,9 @@ namespace SeaBattle
         public Game(string user)
         {
             InitializeComponent();
-            username_label.Content = user;
+            username_label.Content += user;
             addEventClicCell(playerShips);
+            addEventClicCell(enemyShips);
         }
 
 
@@ -36,7 +37,7 @@ namespace SeaBattle
             int j = 0;
             foreach (Grid grid_item in grid.Children)
             {
-                if( j>= 10)
+                if (j >= 10)
                 {
                     i++;
                     j = 0;
@@ -53,7 +54,27 @@ namespace SeaBattle
         {
             Button button = sender as Button;
             Point point = (Point)button.Tag;
-            Debug.WriteLine(point);
+            if (button.Background == Brushes.Red)
+            {
+                button.Background = Brushes.Yellow;
+            }
+            else {
+                if (button.Background == Brushes.Yellow)
+                {
+                    button.Background = Brushes.Blue;
+                }
+                else
+                {
+                    if (button.Background == Brushes.Blue)
+                    {
+                        button.Background = null;
+                    }
+                    else
+                    {
+                        button.Background = Brushes.Red;
+                    }
+                }
+            }
         }
 
         private void To_main_btn_Click(object sender, RoutedEventArgs e)
