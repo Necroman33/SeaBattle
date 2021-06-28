@@ -21,7 +21,6 @@ namespace SeaBattle
     public partial class Game : Window
     {
         SeaBattleEntities context = new SeaBattleEntities();
-        Logic logic = new Logic();
         public int[,] myMap = new int[10, 10];
         public int[,] enemyMap = new int[10, 10];
         public bool isPlaying = false;
