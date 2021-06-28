@@ -732,8 +732,8 @@
         <Label x:Name="label1_Copy37" Content="9" HorizontalAlignment="Left" Margin="578,456,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Label x:Name="label1_Copy38" Content="10" HorizontalAlignment="Left" Margin="578,498,0,0" VerticalAlignment="Top" Width="40" Height="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center"/>
         <Label x:Name="label2" Content="Текущий пользователь:" HorizontalAlignment="Left" Height="33" Margin="386,19,0,0" VerticalAlignment="Top" Width="143"/>
-        <Button x:Name="button" Content="Начать игру" HorizontalAlignment="Left" Height="54" Margin="287,577,0,0" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="button_Copy" Content="Сдаться" HorizontalAlignment="Left" Height="54" Margin="442,577,0,0" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="startButton" Content="Начать игру" HorizontalAlignment="Left" Height="54" Margin="287,577,0,0" VerticalAlignment="Top" Width="120" Click="startButton_Click"/>
+        <Button x:Name="give_up" Content="Сдаться" HorizontalAlignment="Left" Height="54" Margin="442,577,0,0" VerticalAlignment="Top" Width="120" Click="give_up_Click"/>
     </Grid>
 
 </Window>
