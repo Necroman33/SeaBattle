@@ -130,7 +130,7 @@ namespace SeaBattle
                 {
                     if (myMap[i, j] != 0&& myMap[i, j] != 3)
                         test = 1;
-                    if (enemyMap[i, j] != 0 && myMap[i, j] != 3)
+                    if (enemyMap[i, j] != 0 && enemyMap[i, j] != 3)
                         test2 = 1;
                 }
             }
